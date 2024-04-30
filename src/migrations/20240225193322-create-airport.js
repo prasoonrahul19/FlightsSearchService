@@ -20,10 +20,11 @@ module.exports = {
         type: Sequelize.INTEGER,
         onDelete:'CASCADE',
         references:{
-          model:'City',
+          model:'Cities',
           key: 'id',
           as: 'cityId' 
-        }
+        },
+        allowNull:false 
       },
       createdAt: {
         allowNull: false, 
