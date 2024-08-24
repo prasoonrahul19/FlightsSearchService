@@ -1,4 +1,4 @@
-const { where } = require("sequelize");
+//const { where } = require("sequelize");
 
 class CrudRepository{
     constructor(model)
@@ -10,10 +10,11 @@ class CrudRepository{
     {
         try {
             const result = await this.model.create(data);
+            return result;
             
         } catch (error) {
             console.log("something went wrong");
-            throw error
+            throw error;
         }
 
     }
@@ -69,7 +70,7 @@ class CrudRepository{
             const result = await this.model.update(data,{
                 where:{
                     id : modelId
-                }
+                },
                
             });
             return result;
