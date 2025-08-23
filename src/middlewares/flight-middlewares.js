@@ -24,4 +24,4 @@ const validateCreateFlight = (req,res,next)=> {
 module.exports=
 {
     validateCreateFlight
-}
+} 
