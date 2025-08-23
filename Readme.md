@@ -16,6 +16,8 @@
 
 ## City -> id,name,created_at,updatedd_at
 ### Airport -> id,name,address,city_id,created_at,updated_at
+Authication and authorization github link : https://github.com/prasoonrahul19/Auth_services
+Booking service github link : https://github.com/prasoonrahul19/Booking_Service_AIRLINE_TICKETS
 
 ![Documentation 1](documentaion/2025-08-23%20(1).png)
 ![Documentation 2](documentaion/2025-08-23%20(2).png)
