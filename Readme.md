@@ -1,5 +1,5 @@
 
-    # welcome to Fligt service
+    # welcome to Fligt Search service
 
     ## Project Setup
 
